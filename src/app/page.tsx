@@ -19,8 +19,8 @@ const initialTasks: Task[] = [
 ];
 
 const initialUsers: User[] = [
-  { id: 1, name: "John Doe", email: "john@example.com" },
-  { id: 2, name: "Jane Smith", email: "jane@example.com" },
+  { id: 1, name: "Saim", email: "saim@example.com" },
+  { id: 2, name: "Nadeem", email: "nadeem@example.com" },
 ];
 
 const Home: React.FC = () => {
