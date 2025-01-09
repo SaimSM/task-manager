@@ -73,7 +73,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onSubmit, task, users }) => {
         <label className="block text-sm font-medium text-gray-700">Priority</label>
         <select
           value={priority}
-          onChange={(e) => setPriority(e.target.value)}
+          // onChange={(e) => setPriority(e.target.value)}
           className="w-full mt-1 px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500"
         >
           <option>Low</option>
